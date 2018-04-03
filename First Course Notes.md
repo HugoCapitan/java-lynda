@@ -34,3 +34,16 @@ Can be divided
 Can be measured using the length method
 
 
+## Casting types
+Java gets weird with data types so in order to perform operations correctly you should either cast each value in the operation or make sure every part of it gets casted correctly, for example, when performing a calculation of the volume of a sphere this will happen:
+
+Here the end result will be casted to a double since PI is a double, however the result is incorrect because the `4/3` operation returns a integer even though it should be a double, this is because that part of the equation was not casted
+
+    double volume = 4/3 * Math.PI * 10*10*10;
+    // 3141.5926...
+
+The right way to do this would be, this time since `3.0` is a double, the division result will be casted and everything will be like flowers and amazing and stuff.
+
+    double volume = 4/3.0 * Math.PI * 10*10*10;
+    // 4188.7902...
+
