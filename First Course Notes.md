@@ -60,3 +60,20 @@ Be carefull with arrays
 
 ## Overloading
 Two or more methods can have the same name as long as they accept different parameters or return a different type
+
+# Array and ArrayList
+So yeah, in java arrays and arraylists are different things, arrays can only hold primitive values and have a fixed size, while arraylists can hold objects and have and their size grows and shrinks dynamically
+
+    // Array of 5 doubles
+    Double[] doublesArr = new Double[5];
+
+    // ArrayList of Movie objects
+    import entertainment.Movie;
+    import java.util.ArrayList;
+    ArrayList<Movie> myFavourites = new ArrayList<Movies>();
+
+ArrayList methods: 
+- `.add(item)`
+- `.remove(index)`
+- `.get(index)`
+- `.set(index)`
