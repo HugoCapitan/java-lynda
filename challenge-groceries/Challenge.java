@@ -12,7 +12,6 @@ public class Challenge {
     groceries.add("Bananas");
     groceries.add("Soap");
     groceries.add("PopTarts");
-    groceries.add("Cereal");
     groceries.add("Salt");
     groceries.add("Shampoo");
     groceries.add("Meat");
@@ -78,23 +77,6 @@ public class Challenge {
     } else {
       System.out.println("There is no " + query + " in this list.");
     }
-    /**
-     * 1. Compare query with middle pos
-     * 1.1 If equal:
-     * 1.1.1 Return index
-     * 
-     * 1.2 If middle is minor than query:
-     * 1.2.1 index must be at the right
-     * 1.2.2 new left is middle
-     * 
-     * 1.3 If middle is mayor than query:
-     * 1.3.1 index must be at left
-     * 1.3.2 new right is middle
-     * 1.3.3 get new middle and repeat
-     * 
-     * repeat until index is found
-     */
-
   }
 
   public static boolean isMinor(String firstWord, String secondWord) {
