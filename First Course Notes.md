@@ -47,3 +47,16 @@ The right way to do this would be, this time since `3.0` is a double, the divisi
     double volume = 4/3.0 * Math.PI * 10*10*10;
     // 4188.7902...
 
+## Loops
+
+- do while (post test, this is runs at least once)
+- while (pre test, checks condition at start)
+- for (pre test)
+
+## Parameters in methods
+All primitive types are called by value, this is the value gets copied and then passed to the method, however, arrays and objects are passed by reference, so you get the original array inside of the method.
+
+Be carefull with arrays
+
+## Overloading
+Two or more methods can have the same name as long as they accept different parameters or return a different type
