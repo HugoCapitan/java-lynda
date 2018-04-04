@@ -1,0 +1,5 @@
+Fries	$0.99
+Hamburger	$2.50
+Soda	$0.50
+Milk Shake	$4.50
+Hot Dog	$1.50
