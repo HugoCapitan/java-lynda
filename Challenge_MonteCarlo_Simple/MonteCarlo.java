@@ -9,12 +9,11 @@ import java.util.ArrayList;
 public class MonteCarlo {
 
   public static void main(String[] args) {
+    picker(1000);
     picker(10000);
     picker(100000);
     picker(1000000);
     picker(10000000);
-    picker(100000000);
-    picker(1000000000);
   }
 
   public static void picker(int tries) {
