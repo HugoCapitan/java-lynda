@@ -18,6 +18,9 @@ This helps to design flexibility since any change in either side of the relation
 ## 5. *Open for extension, Closed to modification.*
 This is one of the most important principles in software development, it refers to current objects, they should be open for the implementation of new features, however that new implementation should not interfere with current code that already works.
 
+## 6. *Single responsibility*
+A class should only have one reason to change. Therefore the impact of change in the specifications won't be that hard. Seems like this one will lead to further flexibility and minimized maintainabilty efforts, however might also mean a lot of awful code.h
+
 
 # Design Patterns.
 
@@ -189,3 +192,15 @@ StateMachine.java
             ... functionality
         }
     }
+
+## The Iterator Pattern.
+If an object holds a collection of items, create an implementation of the Iterator interface and return that implementation to the objects that might need to iterate over the first objects collection.
+
+Diagram:
+
+![alt text](./Diagrams/Iterator_Class_Diagram.png "Iterator Pattern's class diagram")
+
+## The Factory Method Pattern.
+Delegating the functionality of instantiating objects to a separate class allows you to further compose your code, this goes along with several principles of Design patterns, like the single responsibility.
+
+![alt text](./Diagrams/Factory_Class_Diagram.png "Factory Pattern's Class Diagram")
